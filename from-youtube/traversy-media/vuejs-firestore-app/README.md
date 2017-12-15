@@ -1,6 +1,6 @@
 # vuejs-firestore-app
 
-> A Vue.js project
+> A Vue.js project by [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA) from the series [Vue.js & Firestore - Build & Deploy](https://www.youtube.com/watch?v=sYNjEzcOTOs&list=PLillGF-RfqbYsOOycB67Raf9dwmL6Y31M).
 
 ## Build Setup
 
