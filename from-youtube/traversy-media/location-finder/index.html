@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Location Finder</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    .icon-check,
+    .icon-remove {
+      display: none;
+    }
+
+    .mt-30 {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <section class="hero hero-body is-dark">
+    <div class="container">
+      <h1 class="title">PH Location Info</h1>
+      <h2 class="subtitle">Enter zipcode to get the location info</h2>
+  
+      <form id="zipForm">
+        <div class="field">
+          <p class="control has-icons-left has-icons-right">
+            <input type="text" class="input zip" placeholder="Enter zipcode">
+            <span class="icon is-small is-left">
+              <i class="fa fa-map-pin"></i>
+            </span>
+            <span class="icon is-small is-right icon-check">
+              <i class="fa fa-check"></i>
+            </span>
+            <span class="icon is-small is-right icon-remove">
+              <i class="fa fa-remove"></i>
+            </span>
+          </p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <div class="container mt-30">
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
