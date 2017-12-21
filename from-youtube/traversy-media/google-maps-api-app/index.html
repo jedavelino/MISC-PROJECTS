@@ -38,6 +38,11 @@
         map: map,
         animation: google.maps.Animation.BOUNCE
       });
+
+      marker.addListener('click', function() {
+        map.setZoom(18);
+        map.setCenter(marker.getPosition());
+      });
     }
   </script>
 </body>
